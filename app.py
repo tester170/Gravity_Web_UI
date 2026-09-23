@@ -10,7 +10,7 @@ import streamlit.components.v1 as components  # Показ готовой HTML-�
 
 
 DEMO_FILE = Path(__file__).parent / "data" / "terrain_demo.csv"  # Пример для первого запуска.
-DEFAULT_SERVER = "https://gravity-api-service.fastapicloud.dev"  # Адрес развернутого API.
+DEFAULT_SERVER = "https://gravity-api-server-9b82fcce.fastapicloud.dev"  # Адрес развернутого API.
 REQUIRED_COLUMNS = [  # Координаты и признаки, которые принимает сервер.
     "latitude", "longitude", "elevation_m", "slope", "curvature",
     "tpi_7", "tpi_31", "tpi_121", "roughness_7", "roughness_31", "relief_31",
